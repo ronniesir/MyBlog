@@ -1,5 +1,5 @@
 ---
-title: 2017工作总结和2018工作计划
+title: 2017工作总结和计划
 date: 2018-2-21
 tags:
 - 2018
@@ -10,9 +10,12 @@ categories:
 2017年总结
 
 2018年计划
-1. 完成一个完整的web实战项目
+## 1. 完成一个完整的web实战项目
 #### 需要储备的知识
 * H5
 * CSS3
 * Node
-2. 完成一个完整的iOS实战项目
+<br/>
+<br/>
+<a href="/demo/HtmlCssDemo/index.html" target="_blank">HTML CSS练习项目</a>
+## 2. 完成一个完整的iOS实战项目
