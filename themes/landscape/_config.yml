@@ -2,6 +2,7 @@
 menu:
   Home: /
   Archives: /archives
+  Practice: /demo
 rss: /atom.xml
 
 # Content
