@@ -1,6 +1,6 @@
 ---
-title: Less的使用
-date:  2018-2-21
+title: ES6培训材料整理
+date:  2018-3-29
 tags:
 - web
 - 前端
