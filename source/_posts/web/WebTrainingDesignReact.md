@@ -114,9 +114,7 @@ ReactChildComponent.defaultProps = {
 ```
 
 #### prop-types包已经从react16中移除掉如果要使用需要单独安装
-
-> npm install --save prop-types
-
+#### npm install --save prop-types
 #### 1.类型说明：
 * optionalArray: React.PropTypes.array, 数组
 * optionalBool: React.PropTypes.bool, 布尔类型
