@@ -18,3 +18,4 @@ npm outdated
 ### [webpack 读一篇就够了](https://www.jianshu.com/p/42e11515c10f)
 ### [webpack中文文档](https://www.webpackjs.com/concepts/)
 ### [redux中文文档](http://cn.redux.js.org/)
+### [Babel入门教程](http://www.ruanyifeng.com/blog/2016/01/babel.html)
