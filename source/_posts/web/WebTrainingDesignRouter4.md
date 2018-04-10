@@ -42,7 +42,7 @@ npm install --save react-router-dom
 #### render method
 ##### 每种 render method 都有不同的应用场景，同一个<Route> 应该只使用一种 render method ，大部分情况下你将使用 component
 
-##### 1.\<Route component>
+##### 1.Route component>
 ##### 只有当访问地址和路由匹配时，一个 React component 才会被渲染，此时此组件接受 route props (match, location, history)。
 ```
 <Route path="/user/:username" component={User} />
@@ -50,13 +50,13 @@ const User = ({ match }) => {
   return <h1>Hello {match.params.username}!</h1>
 }
 ```
-##### 2.\<Route render> func
+##### 2.Route render func
 ##### 此方法适用于内联渲染，而且不会产生上文说的重复装载问题。
 ```
 <Route path="/home" render={() => <h1>Home</h1} />
 ```
 
-##### 3.\<Route children>
+##### 3.Route children
 ##### 4.path:string
 ##### 任何可以被 path-to-regexp解析的有效 URL 路径,如果不设置path路由将总是匹配
 ```
@@ -69,7 +69,7 @@ const User = ({ match }) => {
 ##### 如果要确保路由没有末尾斜杠，那么 strict 和exact 都必须同时为 true
 #### props
 
-### \<Link> 提供声明式导航
+### Link 提供声明式导航
 ##### to: string 作用：跳转到指定路径
 ```
 <Link to="/courses" />
@@ -82,7 +82,7 @@ const User = ({ match }) => {
   state: { price: 18 }
 }} />
 ```
-### \<NavLink> link的特殊，为页面导航准备的因为导航需要有激活状态
+### NavLink link的特殊，为页面导航准备的因为导航需要有激活状态
 ##### activeClassName: string
 ##### 导航选中激活时候应用的样式名，默认样式名为 active
 ```
@@ -105,9 +105,9 @@ const User = ({ match }) => {
 ##### isActive: func
 ##### 决定导航是否激活，或者在导航激活时候做点别的事情。不管怎样，它不能决定对应页面是否可以渲染。
 
-### \<Switch>
-##### 只渲染出第一个与当前访问地址匹配的 \<Route> 或 \<Redirect>。
-### \<Redirect>
+### Switch
+##### 只渲染出第一个与当前访问地址匹配的 Route 或 Redirect。
+### Redirect
 ##### 渲染时将导航到一个新地址，这个新地址覆盖在访问历史信息里面的本该访问的那个地址。
 ##### to: string
 ##### 重定向的 URL 字符串
