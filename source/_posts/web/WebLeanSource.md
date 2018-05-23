@@ -27,3 +27,5 @@ npm outdated
 [Semantic UI](http://www.semantic-ui.cn/)
 [Material-UI](http://www.material-ui.com/#/components/list)
 [Ant Design](https://ant.design/components/mention-cn/)
+## 前端好库
+[国际化解决方案]https://github.com/alibaba/react-intl-universal
