@@ -16,7 +16,7 @@ categories:
     adb shell
     pm list instrumentation
 
-<<<<<<< HEAD
+
     adb shell am instrument -w com.ronnie.robotiumtest.test/android.test.InstrumentationTestRunner
 
     adb shell am instrument -w -r   -e debug false -e class 'com.ronnie.test_robot.RobotiumTest' com.ronnie.testdemo.test/android.test.InstrumentationTestRunner
@@ -24,12 +24,6 @@ categories:
 
     am instrument --user 0  -w -r -e debug false -e class com.ronnie.testdemo.UiAutomatorTest#useAppContext com.ronnie.testdemo.test/android.support.test.runner.AndroidJUnitRunner
 
-=======
-    adb shell am instrument -w com.ronnie.test_robot.test/android.test.InstrumentationTestRunner
-
-    adb shell am instrument -w -r   -e debug false -e class 'com.ronnie.test_robot.RobotiumTest' com.ronnie.testdemo.test/android.test.InstrumentationTestRunner
-
->>>>>>> 2e45daab114b35f0179e41ee066c1f8afb51c97c
 2. Robotium无源码apk测试
 ```
 task copyTask(type: Copy) {
@@ -44,7 +38,7 @@ task copyTask(type: Copy) {
 //运行-editconfiguration 在中间添加一个gradle:app:copyTask
 ```
 
-<<<<<<< HEAD
+
 3. instrumentation的原理
 
 4. Robotium 和uiautomator混合使用
@@ -62,8 +56,4 @@ task copyTask(type: Copy) {
 6. [基于Robotium的自动遍历方案](https://testerhome.com/topics/7298)
 
 5. 了解appium基本概念
-=======
-### 参考资料
-1. [Robotium在AndroidStudio中搭建及参数化测试实践](https://blog.csdn.net/xlyrh/article/details/52851037)
-2. [Robotium (无源码)基于Android Studio 的自动化测试](https://github.com/ttraveler/robotium-as-demo/blob/master/tutorial/t2.md)
->>>>>>> 2e45daab114b35f0179e41ee066c1f8afb51c97c
+
