@@ -32,3 +32,5 @@ adb shell pm install -t -r "/data/local/tmp/com.smart.farmer.test"
 adb shell am instrument -w -r   -e debug false -e class 'com.smart.farmer.ExampleInstrumentedTest#test1' com.smart.farmer.test/android.support.test.runner.AndroidJUnitRunner
 
 ```
+
+adb shell am instrument -w -r   -e debug false -e class 'com.ronnie.testdemo.UiAutomatorTest#useAppContext' com.ronnie.testdemo.test/android.support.test.runner.AndroidJUnitRunner
